@@ -1,9 +1,10 @@
-export const apiEndpoint = process.env.API_ENDPOINT
+export const apiEndpoint = process.env.REACT_APP_API_ENDPOINT  
 
 export const authConfig = {
-    domain: process.env.AUTH0_DOMAIN,
-    clientId: process.env.AUTH0_CLIENT_ID,
-    callbackUrl: process.env.AUTH0_CALLBACK
+  domain: process.env.REACT_APP_AUTH0_DOMAIN,
+  clientId: process.env.REACT_APP_AUTH0_CLIENT_ID,
+  callbackUrl: process.env.REACT_APP_AUTH0_CALLBACK
   }
 
- 
+
+  
